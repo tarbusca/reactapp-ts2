@@ -5,9 +5,10 @@ import './mycss.css';
 function Hi({name, batch}) {
 
     return <div><center>
-      <h1>This Assignment # 3</h1>
+      <h1>Panacloud Blockchain Practical Training</h1>
+    <h2>Step 7 - Transfer DAI </h2>
 Prepared by <strong>{name}</strong>
-<br></br>From batch {batch}
+//<br></br>From batch {batch}
       <ol>
         <li>Changed the Hello world</li>
         <li>Made my name bold (see above) </li>
