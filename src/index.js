@@ -34,8 +34,8 @@ function Hi({name, batch}) {
 </tr>
    </table>     
         
-     
-    </div>; 
+ </center>    
+ </div> 
 
   }
 
