@@ -9,15 +9,15 @@ function Hi({name, batch}) {
     <h2>Step 7 - Transfer DAI </h2>
 Prepared by <strong>{name}</strong>
 <br></br>From batch {batch}
-      <ol>
-        <li>Changed the Hello world</li>
-        <li>Made my name bold (see above) </li>
-        <li>Added more html tag e.g heading</li>
-        <li>Added the ordered list</li>
-        <li>Expression solving as well, ten plus five = {10+5}</li>
-      </ol> 
+<form>
+  <label for="ethAddress">Transfer To Address:</label><br>
+  <input type="text" id="ethAddress" name="fname"><br>
+  <label for="amount">DAI Amount:</label><br>
+  <input type="text" id="amount" name="amount">
+  <button id='send'> Send </button>
+</form>
       
-      <p className="myStyle"> This is styled text using css </p>
+      <p className="myStyle"><button>Connect to Metamask</button></p>
     </center></div>;
 
   }
