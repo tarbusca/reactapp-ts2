@@ -17,7 +17,7 @@ function Hi({name, batch}) {
         Tranfer To Address
     </td>
     <td>
-        <input type="text" id="ethAddress" name="fname">
+        <input type="text" id="ethAddress" name="fname"></input>
     </td>
 </tr> 
 <tr align="left"> 
@@ -25,7 +25,7 @@ function Hi({name, batch}) {
         DAI Amount
     </td>
     <td align="left">    
-        <input type="text" id="amount" name="amount">
+        <input type="text" id="amount" name="amount"></input>
     </td>
  </tr> 
  <tr> 
