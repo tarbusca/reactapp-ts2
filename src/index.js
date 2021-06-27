@@ -34,6 +34,6 @@ function Hi({name, batch}) {
 </tr>
    </table>     
         
- }
+ };
 
   ReactDOM.render(<Hi name="Tariq Saeed" batch="Block Chain 34"/>, document.querySelector('#root'));
